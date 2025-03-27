@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="title">BMI计算器</string>
+    <string name="height">身高(米)</string>
+    <string name="weight">体重(千克)</string>
+    <string name="suggestion">健康建议</string>
+</resources>
