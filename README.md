@@ -10,4 +10,4 @@
 列表的事件处理:CustomListActivity
 CalculateActivity
 设置每天更新一次汇率到数据库:DBHelper,RateManager,RateItem,MyAdapter,CustomActivity
-其余代码为课上练习代码
+其余的代码为课上练习代码
