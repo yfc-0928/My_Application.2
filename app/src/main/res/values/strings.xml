@@ -4,4 +4,28 @@
     <string name="height">身高(米)</string>
     <string name="weight">体重(千克)</string>
     <string name="suggestion">健康建议</string>
+
+    <string name="team1_label">TeamA</string>
+    <string name="btn3_label">+3 points</string>
+    <string name="btn2_label">+2 points</string>
+    <string name="btn1_label">+1 points</string>
+    <string name="reset_label">resets</string>
+
+    <string name="team2_label">TeamB</string>
+    <string name="btn23_label">+3 points</string>
+    <string name="btn22_label">+2 points</string>
+    <string name="btn21_label">+1 points</string>
+
+    <string name="insert_1">Input RMB</string>
+    <string name="str_1">Hello</string>
+    <string name="btn_won_label">won</string>
+    <string name="btn_dollar_label">dollar</string>
+    <string name="btn_euro_label">euro</string>
+    <string name="btn_config_label">config</string>
+    <string name="input_rate">Input rate</string>
+    <string name="btn_save_label">save</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

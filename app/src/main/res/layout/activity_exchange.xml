@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".exchangeActivity">
+
+    <EditText
+        android:id="@+id/input_rmb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/insert_1"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:minHeight="24dp"
+        android:inputType="text"
+        android:ems="10"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/btn_dollar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myclick"
+        android:text="@string/btn_dollar_label"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btn_euro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:onClick="myclick"
+        android:text="@string/btn_euro_label"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btn_won"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myclick"
+        android:text="@string/btn_won_label"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="openConfig"
+        android:text="@string/btn_config_label"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:onClick="htclick"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginVertical="16dp"
+        android:gravity="start"
+        android:text="@string/str_1"/>
+
+
+</LinearLayout>
